@@ -21,5 +21,5 @@ User need: a way to sleep without accidently passing their station.
 Resolution:  this app allows the users to choose a specific location that will wake them up when going pass it, helping them to wake up in time.
 
 4. User Stories:
-As a user, I can open choose the coordinates where the alarm will go off.
+As a user, I can open and choose a location for the alarm to go off.
 As a user, I can see public transportation stations and routes. 
