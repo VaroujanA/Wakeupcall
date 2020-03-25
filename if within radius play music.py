@@ -1,8 +1,8 @@
 import json
 from playsound import playsound
 
-Curlatitude = 
-Curlongitude = 
+Curlatitude = Input_from_cordinate_samples
+Curlongitude = Input_from_cordinate_samples
 
 radius = Input_Km / 85.39
 
