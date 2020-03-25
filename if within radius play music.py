@@ -14,4 +14,4 @@ latitude= float(Destination["lat"])
 longitude = float(Destination["long"])
 
 if ( ( ( (Curlatitude - latitude)**2 ) + ( (Curlongitude - longitude)**2) ) <= radius**2 ):
-    playsound('C:/Users/varou/Desktop/music for proj/land on the horizon.mp3')
+    playsound('land on the horizon.mp3')
