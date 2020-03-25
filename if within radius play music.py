@@ -6,7 +6,7 @@ Curlongitude =
 
 radius = input_Km / 85.39
 
-with open("Baghramyan_Avn_AUA.json.json") as data_file:
+with open("Baghramyan_Avn_AUA.json") as data_file:
     Destination = json.load(data_file)
 
 
