@@ -1,0 +1,17 @@
+{
+  "Stations" : [{
+    "Codes": ["1","2","3","4","5","6","7","8","9","10","11","12"],
+    "1": {"name": "France Square 1" , "lat": 40.187821, "long": 44.514453},
+    "2": {"name": "France square 2" , "lat": 40.187891, "long": 44.515820},
+    "3": {"name": "France square 3" , "lat": 40.1876707, "long": 44.5160554},
+    "4": {"name": "Mesrop Mashtots 1" , "lat": 40.184753, "long": 44.512428},
+    "5": {"name": "Mesrop Mashtots 2" , "lat": 40.1847592, "long": 44.5119651},
+    "6": {"name": "Mesrop Mashtots 3" , "lat": 40.1813081, "long": 44.507997},
+    "7": {"name": "Mesrop Mashtots 4" , "lat": 40.1813081, "long": 44.507997},
+    "8": {"name": "Mesrop Mashtots 5" , "lat": 40.1787796, "long": 44.5050988},
+    "9": {"name": "Mesrop Mashtots 6" , "lat": 40.1783644, "long": 44.5048064},
+    "10": {"name": "Kaskad" , "lat": 40.1881197, "long": 44.5154458},
+    "11": {"name": "Central bus station" , "lat": 40.1725216, "long": 44.4732186},
+    "12": {"name": "Baghramyan", "lat": 40.192003, "long": 44.505178}
+  }]
+}
