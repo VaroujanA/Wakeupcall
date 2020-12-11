@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d866a41098cf4b218729a94013c7c676 {
+                #map_356217d4d0134bfeb458483daed739a2 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_d866a41098cf4b218729a94013c7c676" ></div>
+            <div class="folium-map" id="map_356217d4d0134bfeb458483daed739a2" ></div>
         
 </body>
 <script>    
     
-            var map_d866a41098cf4b218729a94013c7c676 = L.map(
-                "map_d866a41098cf4b218729a94013c7c676",
+            var map_356217d4d0134bfeb458483daed739a2 = L.map(
+                "map_356217d4d0134bfeb458483daed739a2",
                 {
                     center: [40.192003, 44.505178],
                     crs: L.CRS.EPSG3857,
@@ -55,43 +55,43 @@
 
         
     
-            var tile_layer_4b07b9c65a164b288e1321c6291a85e4 = L.tileLayer(
+            var tile_layer_52cbd0680b5a403a8d3763e73d2333b3 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_d866a41098cf4b218729a94013c7c676);
+            ).addTo(map_356217d4d0134bfeb458483daed739a2);
         
     
-                var lat_lng_popup_1475930aac6e4e5d9ece02e056cec03b = L.popup();
+                var lat_lng_popup_ce4e656c8dff47ee890c0f4be125d8aa = L.popup();
                 function latLngPop(e) {
-                    lat_lng_popup_1475930aac6e4e5d9ece02e056cec03b
+                    lat_lng_popup_ce4e656c8dff47ee890c0f4be125d8aa
                         .setLatLng(e.latlng)
                         .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
                                     "<br>Longitude: " + e.latlng.lng.toFixed(4))
-                        .openOn(map_d866a41098cf4b218729a94013c7c676);
+                        .openOn(map_356217d4d0134bfeb458483daed739a2);
                     }
-                map_d866a41098cf4b218729a94013c7c676.on('click', latLngPop);
+                map_356217d4d0134bfeb458483daed739a2.on('click', latLngPop);
             
     
-            var circle_cf48b63d870e44eeaad7bd1d609c282b = L.circle(
+            var circle_c7cb004cfc6249f2a2cb09736d4c6dbd = L.circle(
                 [40.192003, 44.505178],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": true, "weight": 3}
-            ).addTo(map_d866a41098cf4b218729a94013c7c676);
+            ).addTo(map_356217d4d0134bfeb458483daed739a2);
         
     
-            var marker_39b9e5c1502b4d2192d43a5a988f1307 = L.marker(
+            var marker_f43afac7dbee4e099847c8eb19933d10 = L.marker(
                 [40.192003, 44.505178],
                 {}
-            ).addTo(map_d866a41098cf4b218729a94013c7c676);
+            ).addTo(map_356217d4d0134bfeb458483daed739a2);
         
     
-        var popup_49a49f4418d84b0c81f622262fc83c09 = L.popup({"maxWidth": "100%"});
+        var popup_47d34ae8932c4840a70735e0d5b5c6a5 = L.popup({"maxWidth": "100%"});
 
         
-            var html_2d0a96e03c5b4d54a56122f37bdcbe1e = $(`<div id="html_2d0a96e03c5b4d54a56122f37bdcbe1e" style="width: 100.0%; height: 100.0%;"><b>Destination</b> <i>Baghramyan</div>`)[0];
-            popup_49a49f4418d84b0c81f622262fc83c09.setContent(html_2d0a96e03c5b4d54a56122f37bdcbe1e);
+            var html_c8c4985b0c754ac2b6bcd3e5eacd7a54 = $(`<div id="html_c8c4985b0c754ac2b6bcd3e5eacd7a54" style="width: 100.0%; height: 100.0%;"><b>Destination</b> <i>Baghramyan</div>`)[0];
+            popup_47d34ae8932c4840a70735e0d5b5c6a5.setContent(html_c8c4985b0c754ac2b6bcd3e5eacd7a54);
         
 
-        marker_39b9e5c1502b4d2192d43a5a988f1307.bindPopup(popup_49a49f4418d84b0c81f622262fc83c09)
+        marker_f43afac7dbee4e099847c8eb19933d10.bindPopup(popup_47d34ae8932c4840a70735e0d5b5c6a5)
         ;
 
         

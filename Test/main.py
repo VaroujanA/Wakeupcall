@@ -12,12 +12,11 @@ import folium
 
 def dict_to_hashmap(dict_to_be_transformed):
     hashmap = HashMap()
-    code = 0
     for key, value in dict_to_be_transformed.items():
         name = key
-        lat = value[0]
-        long = value[1]
-        code = code + 1
+        code = value[0]
+        lat = value[1]
+        long = value[2]
         hashmap.put(str(code), {"name": name,
                                 "lat": lat,
                                 "long": long,
@@ -396,6 +395,15 @@ def display_nth_item_folder(folder):
 
 
 def main():
+    global hash, s
+    global q
+
+    with open("new_stations.json") as data_file:
+        dictionary = json.load(data_file)
+        hash = dict_to_hashmap(dictionary)
+
+    s = SingleLinkedList()
+    q = Queue()
 
     choice_1 = question_1()
 
@@ -437,6 +445,7 @@ def main():
                 question_1_3_3_1()
 
             if int(choice_1_3_3) == 2:
+                q.display()
                 question_1_3_3_2()
 
             if int(choice_1_3_3) == 3:
@@ -445,13 +454,6 @@ def main():
         if int(choice_1_3) == 4:
             question_1()
 
-
-with open("Stations.json") as data_file:
-    dictionary = json.load(data_file)
-    hash = dict_to_hashmap(dictionary)
-
-s = SingleLinkedList()
-q = Queue()
 
 while True:
     main()
